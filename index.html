@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/slick-theme.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="header__nav">
+          <img src="images/Logo.svg" alt="logo" class="header__logo" />
+          <ul class="header__menu">
+            <li class="header__menu-items">
+              <a class="header__items-link" href="#">Home</a>
+            </li>
+            <li class="header__menu-items">
+              <a class="header__items-link" href="#"
+                >Landings
+                <svg
+                  width="9"
+                  height="5"
+                  viewBox="0 0 9 5"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M4.10156 4.77344C4.3125 4.98438 4.66406 4.98438 4.875 4.77344L8.0625 1.58594C8.29688 1.35156 8.29688 1 8.0625 0.789062L7.54688 0.25C7.3125 0.0390625 6.96094 0.0390625 6.75 0.25L4.47656 2.52344L2.22656 0.25C2.01562 0.0390625 1.66406 0.0390625 1.42969 0.25L0.914062 0.789062C0.679688 1 0.679688 1.35156 0.914062 1.58594L4.10156 4.77344Z"
+                    fill="white"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li class="header__menu-items">
+              <a class="header__items-link" href="#">
+                Pages
+                <svg
+                  width="9"
+                  height="5"
+                  viewBox="0 0 9 5"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M4.10156 4.77344C4.3125 4.98438 4.66406 4.98438 4.875 4.77344L8.0625 1.58594C8.29688 1.35156 8.29688 1 8.0625 0.789062L7.54688 0.25C7.3125 0.0390625 6.96094 0.0390625 6.75 0.25L4.47656 2.52344L2.22656 0.25C2.01562 0.0390625 1.66406 0.0390625 1.42969 0.25L0.914062 0.789062C0.679688 1 0.679688 1.35156 0.914062 1.58594L4.10156 4.77344Z"
+                    fill="white"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li class="header__menu-items">
+              <a class="header__items-link" href="#">Docs</a>
+            </li>
+            <li class="header__menu-items">
+              <a class="header__items-link" href="#">Help</a>
+            </li>
+            <li class="header__menu-items">
+              <button class="header__btn">Login</button>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__inner">
+          <h2 class="header__title">
+            We help you <br />
+            grow your business faster
+            <svg
+              class="header-svg"
+              width="178"
+              height="42"
+              viewBox="0 0 178 42"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1.00088 17.446C-1.4327 22.3328 8.01685 23.4351 11.9433 26.1457C18.5531 30.7068 27.0054 33.626 36.0463 35.8751C55.129 40.6293 75.6394 42.4626 97.789 40.5793C113.598 39.2338 128.99 35.7293 143.364 28.819C155.926 22.7787 166.55 15.4012 174.875 6.57568C175.734 5.66315 176.465 4.70098 177.13 3.73658C177.535 3.1475 177.874 2.48487 177.905 1.89731C177.931 1.33728 178 0.499966 177.31 0.303019C176.62 0.106073 175.543 0.732406 174.859 1.12187C173.981 1.6212 173.28 2.28609 172.556 2.90785C168.833 6.11114 165.206 9.36895 161.395 12.5269C150.33 21.6998 136.782 27.819 121.128 31.3456C107.093 34.5104 93.282 35.7362 79.682 35.2743C63.2101 34.7153 47.7213 32.6062 33.9074 27.7652C25.3146 24.754 12.3969 15.5545 12.3969 15.5545C12.3969 15.5545 11.8605 15.0398 11.4752 14.7628C8.047 12.2975 2.88317 13.6662 1.00088 17.446Z"
+                fill="#005490"
+              />
+            </svg>
+          </h2>
+          <p class="header__text">
+            Ehya is the Instagram analytics platform teams use to stay focused
+            on the goals, track engagement for report your business .
+          </p>
+          <div class="header__inner-item">
+            <a href="#" class="header__inner-btn">See how it works</a>
+            <p class="header__inner-text">
+              Get a free demo
+              <svg
+                width="21"
+                height="12"
+                viewBox="0 0 21 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1 5.2C0.558172 5.2 0.2 5.55817 0.2 6C0.2 6.44183 0.558172 6.8 1 6.8L1 5.2ZM20.5657 6.56569C20.8781 6.25327 20.8781 5.74674 20.5657 5.43432L15.4745 0.343147C15.1621 0.0307275 14.6556 0.0307274 14.3431 0.343147C14.0307 0.655566 14.0307 1.1621 14.3431 1.47452L18.8686 6L14.3431 10.5255C14.0307 10.8379 14.0307 11.3444 14.3431 11.6569C14.6556 11.9693 15.1621 11.9693 15.4745 11.6569L20.5657 6.56569ZM1 6.8L20 6.8L20 5.2L1 5.2L1 6.8Z"
+                  fill="white"
+                />
+              </svg>
+            </p>
+          </div>
+          <img class="header__inner-img" src="images/header-img.png" />
+        </div>
+      </div>
+    </header>
+
+    <div class="header__bottom">
+      <div class="container">
+        <ul class="header__bottom-menu">
+          <li class="bottom-menu__items">
+            <a href="#" class="bottom-menu__links">
+              <img src="images/slack.svg" alt="slack" />
+            </a>
+          </li>
+          <li class="bottom-menu__items">
+            <a href="#" class="bottom-menu__links">
+              <img src="images/netflix.svg" alt="netflix" />
+            </a>
+          </li>
+          <li class="bottom-menu__items">
+            <a href="#" class="bottom-menu__links">
+              <img src="images/google.svg" alt="google" />
+            </a>
+          </li>
+          <li class="bottom-menu__items">
+            <a href="#" class="bottom-menu__links">
+              <img src="images/airbnb.svg" alt="airbnb" />
+            </a>
+          </li>
+          <li class="bottom-menu__items">
+            <a href="#" class="bottom-menu__links">
+              <img src="images/uber.svg" alt="uber" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <main class="info">
+      <div class="container">
+        <div class="info__inner">
+          <img
+            class="info__inner-img"
+            src="images/info-inner-img.png"
+            alt="info"
+          />
+          <div class="info__inner-item">
+            <h3 class="title info__inner-title">
+              Measure Impressions and Reach Post
+            </h3>
+            <p class="text info__inner-text">
+              Graphs displaying your performance for metrics like follower
+              evolution, average engagement rate per post and reach and
+              impressions to give you the insights.
+            </p>
+            <a href="#" class="info__link">
+              Learn about graphs
+              <svg
+                width="17"
+                height="12"
+                viewBox="0 0 17 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.5115 6.66681C16.8044 6.37391 16.8044 5.89904 16.5115 5.60615L11.7386 0.833175C11.4457 0.540281 10.9708 0.540281 10.6779 0.833175C10.385 1.12607 10.385 1.60094 10.6779 1.89383L14.9205 6.13648L10.6779 10.3791C10.385 10.672 10.385 11.1469 10.6779 11.4398C10.9708 11.7327 11.4457 11.7327 11.7386 11.4398L16.5115 6.66681ZM0.981201 6.88647L15.9812 6.88648L15.9812 5.38648L0.981201 5.38647L0.981201 6.88647Z"
+                  fill="#04AADD"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="info__bottom">
+          <div class="info__bottom-item">
+            <h3 class="title">Schedule Your Post Whenever You Want</h3>
+            <p class="text">
+              Publish your content automatically to ensure that your content
+              reaches the right people. Built-in features such as
+            </p>
+
+            <ul class="info__list">
+              <li class="info__list-itmes">
+                <svg
+                  width="16"
+                  height="17"
+                  viewBox="0 0 16 17"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_134_1409)">
+                    <path
+                      d="M14.6667 7.66945V8.28279C14.6659 9.7204 14.2004 11.1192 13.3396 12.2707C12.4788 13.4221 11.2689 14.2644 9.89028 14.6721C8.51166 15.0797 7.03821 15.0307 5.68969 14.5325C4.34116 14.0343 3.18981 13.1135 2.40735 11.9075C1.62488 10.7015 1.25323 9.27483 1.34783 7.84033C1.44242 6.40583 1.99818 5.04034 2.93223 3.9475C3.86628 2.85467 5.12856 2.09304 6.53083 1.77622C7.9331 1.45939 9.40022 1.60435 10.7134 2.18945"
+                      stroke="#18B7E7"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M14.6667 2.94946L8 9.6228L6 7.6228"
+                      stroke="#18B7E7"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_134_1409">
+                      <rect
+                        width="16"
+                        height="16"
+                        fill="white"
+                        transform="translate(0 0.282837)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+                Best Time to Post
+              </li>
+              <li class="info__list-itmes">
+                <svg
+                  width="16"
+                  height="17"
+                  viewBox="0 0 16 17"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_134_1409)">
+                    <path
+                      d="M14.6667 7.66945V8.28279C14.6659 9.7204 14.2004 11.1192 13.3396 12.2707C12.4788 13.4221 11.2689 14.2644 9.89028 14.6721C8.51166 15.0797 7.03821 15.0307 5.68969 14.5325C4.34116 14.0343 3.18981 13.1135 2.40735 11.9075C1.62488 10.7015 1.25323 9.27483 1.34783 7.84033C1.44242 6.40583 1.99818 5.04034 2.93223 3.9475C3.86628 2.85467 5.12856 2.09304 6.53083 1.77622C7.9331 1.45939 9.40022 1.60435 10.7134 2.18945"
+                      stroke="#18B7E7"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M14.6667 2.94946L8 9.6228L6 7.6228"
+                      stroke="#18B7E7"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_134_1409">
+                      <rect
+                        width="16"
+                        height="16"
+                        fill="white"
+                        transform="translate(0 0.282837)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+                Geolocation
+              </li>
+              <li class="info__list-itmes">
+                <svg
+                  width="16"
+                  height="17"
+                  viewBox="0 0 16 17"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_134_1409)">
+                    <path
+                      d="M14.6667 7.66945V8.28279C14.6659 9.7204 14.2004 11.1192 13.3396 12.2707C12.4788 13.4221 11.2689 14.2644 9.89028 14.6721C8.51166 15.0797 7.03821 15.0307 5.68969 14.5325C4.34116 14.0343 3.18981 13.1135 2.40735 11.9075C1.62488 10.7015 1.25323 9.27483 1.34783 7.84033C1.44242 6.40583 1.99818 5.04034 2.93223 3.9475C3.86628 2.85467 5.12856 2.09304 6.53083 1.77622C7.9331 1.45939 9.40022 1.60435 10.7134 2.18945"
+                      stroke="#18B7E7"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M14.6667 2.94946L8 9.6228L6 7.6228"
+                      stroke="#18B7E7"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_134_1409">
+                      <rect
+                        width="16"
+                        height="16"
+                        fill="white"
+                        transform="translate(0 0.282837)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+                User Tag
+              </li>
+              <li class="info__list-itmes">
+                <svg
+                  width="16"
+                  height="17"
+                  viewBox="0 0 16 17"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_134_1409)">
+                    <path
+                      d="M14.6667 7.66945V8.28279C14.6659 9.7204 14.2004 11.1192 13.3396 12.2707C12.4788 13.4221 11.2689 14.2644 9.89028 14.6721C8.51166 15.0797 7.03821 15.0307 5.68969 14.5325C4.34116 14.0343 3.18981 13.1135 2.40735 11.9075C1.62488 10.7015 1.25323 9.27483 1.34783 7.84033C1.44242 6.40583 1.99818 5.04034 2.93223 3.9475C3.86628 2.85467 5.12856 2.09304 6.53083 1.77622C7.9331 1.45939 9.40022 1.60435 10.7134 2.18945"
+                      stroke="#18B7E7"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M14.6667 2.94946L8 9.6228L6 7.6228"
+                      stroke="#18B7E7"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_134_1409">
+                      <rect
+                        width="16"
+                        height="16"
+                        fill="white"
+                        transform="translate(0 0.282837)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+                Others benefit
+              </li>
+            </ul>
+            <a href="#" class="info__link">
+              Learn about scheduled post
+              <svg
+                width="17"
+                height="12"
+                viewBox="0 0 17 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.5115 6.66681C16.8044 6.37391 16.8044 5.89904 16.5115 5.60615L11.7386 0.833175C11.4457 0.540281 10.9708 0.540281 10.6779 0.833175C10.385 1.12607 10.385 1.60094 10.6779 1.89383L14.9205 6.13648L10.6779 10.3791C10.385 10.672 10.385 11.1469 10.6779 11.4398C10.9708 11.7327 11.4457 11.7327 11.7386 11.4398L16.5115 6.66681ZM0.981201 6.88647L15.9812 6.88648L15.9812 5.38648L0.981201 5.38647L0.981201 6.88647Z"
+                  fill="#04AADD"
+                />
+              </svg>
+            </a>
+          </div>
+          <img
+            class="info__bottom-img"
+            src="images/info-bottom-img.png"
+            alt="macbook"
+          />
+        </div>
+      </div>
+    </main>
+
+    <section class="track">
+      <div class="track__inner">
+        <h3 class="title track__title">Track any hashtag(s) Performance</h3>
+        <p class="text">
+          Don’t waste time on search manual tasks. Let Automation do it for you.
+        </p>
+        <p class="text">implify workflows, reduce errors, and save time.</p>
+      </div>
+
+      <div class="container">
+        <ul class="track__list">
+          <li class="track__list-items">
+            <img src="images/hashtag.png" alt="" class="track__list-img" />
+            <h4 class="track__list-title">Hashtag Growth</h4>
+            <p class="track__list-text">
+              Follow a hashtag growth total posts, videos and images.
+            </p>
+          </li>
+          <li class="track__list-items">
+            <img src="images/byHastag.png" alt="" class="track__list-img" />
+            <h4 class="track__list-title">Influencers by Hashtag</h4>
+            <p class="track__list-text">
+              Identify the most influential people posting with your hashtag.
+            </p>
+          </li>
+          <li class="track__list-items">
+            <img src="images/post.png" alt="" class="track__list-img" />
+            <h4 class="track__list-title">Most Influental Post</h4>
+            <p class="track__list-text">
+              See the most influential posts on hashtag you are following on.
+            </p>
+          </li>
+          <li class="track__list-items">
+            <img src="images/Location.png" alt="" class="track__list-img" />
+            <h4 class="track__list-title">Hashtag Location</h4>
+            <p class="track__list-text">
+              Visualize where people are posting using your hashtag made.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="reviews">
+      <div class="container">
+        <div class="reviews__inner">
+          <div class="about-reviews__inner">
+            <h3 class="reviews__inner-title title">
+              Powering the growth of 100+ business & retailers in Indonesia.
+            </h3>
+            <p class="reviews__inner-text text">
+              From single store, startups, to large multi-store brands.
+            </p>
+          </div>
+          <div class="reviews__inner-slider">
+            <div class="reviews__slider">
+              <img
+                class="reviews__slider-item"
+                src="images/Group 38.png"
+                alt=""
+              />
+              <img
+                class="reviews__slider-item"
+                src="images/Group 38.png"
+                alt=""
+              />
+              <img
+                class="reviews__slider-item"
+                src="images/Group 38.png"
+                alt=""
+              />
+              <img
+                class="reviews__slider-item"
+                src="images/Group 38.png"
+                alt=""
+              />
+              <img
+                class="reviews__slider-item"
+                src="images/Group 38.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="reviews__bottom">
+          <div class="reviews__bottom-item">
+            <h3 class="reviews__bottom-title">
+              Grow your brand presence on social media
+            </h3>
+            <p class="reviews__bottom-text">
+              Join with more 1200+ happy customers
+            </p>
+
+            <div>
+              <img src="images/rev-img.png" alt="" />
+              <a href="#" class="rev__link">and others</a>
+            </div>
+          </div>
+          <a href="" class="reviews__bottom-btn">Get your trial now</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <ul class="footer__menu">
+          <li class="footer__menu-items">
+            <a href="#" class="footer__itmes-link">
+              <img src="images/Logo.svg" alt="logo" />
+            </a>
+            <p class="footer__itmes-link__text">
+              Build a modern and creative website with crealand
+            </p>
+            <ul class="social">
+              <li class="google">
+                <a href="#">
+                  <img src="images/Icon-google.svg" alt="" />
+                </a>
+              </li>
+              <li class="twitter">
+                <a href="#">
+                  <img src="images/Icon-twitter.svg" alt="" />
+                </a>
+              </li>
+              <li class="instagram">
+                <a href="#">
+                  <img src="images/Icon-inst.svg" alt="" />
+                </a>
+              </li>
+              <li class="indriver">
+                <a href="#">
+                  <img src="images/Icon-indriver.svg" alt="" />
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="footer__menu-items">
+            <ul class="footer__menu-items__menu">
+              <li>
+                <ul class="footer__menu-items__menu-items">
+                  <li>
+                    <h5 class="footer__menu-title">Product</h5>
+                  </li>
+                  <li>
+                    <a href="#" class="footer__menu-items__link">
+                      Landingpage
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer__menu-items__link"> Features </a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer__menu-items__link">
+                      Documentation
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer__menu-items__link">
+                      Referral Program
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer__menu-items__link"> Pricing </a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <ul class="footer__menu-items__menu-items">
+                  <li>
+                    <h5 class="footer__menu-title">Services</h5>
+                  </li>
+                  <li>
+                    <a href="#" class="footer__menu-items__link">
+                      Documentation
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer__menu-items__link"> Design </a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer__menu-items__link"> Themes </a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer__menu-items__link">
+                      Illustrations
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer__menu-items__link"> UI Kit </a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <ul class="footer__menu-items__menu-items">
+                  <li>
+                    <h5 class="footer__menu-title">Company</h5>
+                  </li>
+                  <li>
+                    <a href="#" class="footer__menu-items__link"> About </a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer__menu-items__link"> Terms </a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer__menu-items__link">
+                      Privacy Policy
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer__menu-items__link"> Careers </a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <ul class="footer__menu-items__menu-items">
+                  <li>
+                    <h5 class="footer__menu-title">More</h5>
+                  </li>
+                  <li>
+                    <a href="#" class="footer__menu-items__link">
+                      Documentation
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer__menu-items__link"> License </a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer__menu-items__link"> Changelog </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <div class="footer__heart">
+          <a href="#">
+            <img src="images/Heart.png" alt="heart" />
+          </a>
+          <p class="heart__text">Copyright © 2021. Crafted with love.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
